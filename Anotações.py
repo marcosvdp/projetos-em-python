@@ -251,4 +251,22 @@ i = 1
 while i <= 10:
     print(i)
     i = i + 1  # i += 1 é outra forma de fazer essas somas
-print("Fim do loop")
+print("Fim do loop ")
+
+FORMATAÇÃO
+print('Formatação de Floats')
+print("R$ {:.2f}".format(1.59))
+
+print("R$ {:7.2f}".format(1234.50))
+
+print("Formatação de inteiros")
+print("R$ {:07d}".format(4))
+print("Data {:02d}/{:02d}".format(13, 6))
+
+#f-strings ou formatted string literals
+nome = "Marcos"
+print(f"Meu nome é {nome}")
+print(f"Meu nome é {nome.upper()}")
+
+#random
+#randrange  delimita o valor maximo para o numero gerado, do valor inicial(ou 0 caso n seja informado) até o limite -1
