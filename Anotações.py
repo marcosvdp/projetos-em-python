@@ -270,3 +270,10 @@ print(f"Meu nome é {nome.upper()}")
 
 #random
 #randrange  delimita o valor maximo para o numero gerado, do valor inicial(ou 0 caso n seja informado) até o limite -1
+
+divisao = 3/2  #float division, o resultado sempre é float mesmo q n seja necessario
+
+print(divisao)
+
+division = 3//2   #integer division, devolve o valor inteiro
+print(division)
